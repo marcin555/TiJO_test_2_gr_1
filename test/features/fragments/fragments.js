@@ -25,12 +25,10 @@ var fragments = function (text)
 {
 'use strict';
 var mapping = {
-
 helloButton: element.bind(null, by.id('marcin')),
 niceToMeetYouButton: element.bind(null,by.id('gazda')),
 someBigText: element.bind(null, by.id('somebigtext')),
 learnMoreHref: element.bind(null, by.id('lernmorehref'))
-
 };
 return byString(mapping, text);
 };
